@@ -64,6 +64,5 @@ customers[1].purchases.push("Winter Jacket");
 customers.forEach(customer => {
     console.log(
         `Customer Name: ${customer.customerName}, Customer Email: ${customer.email}, Total Purchases: ${customer.purchases.length}`
-        ``
     )
 })
