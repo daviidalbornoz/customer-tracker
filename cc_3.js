@@ -57,3 +57,6 @@ customers.push({
 });
 
 customers.shift();
+
+customers[0].email = "jordansmith@newemail.com";
+customers[1].purchases.push("Winter Jacket");
