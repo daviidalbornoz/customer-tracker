@@ -44,4 +44,16 @@ let customers = [
             "Red Heels"
         ]
     },
-]
+];
+
+customers.push({
+    customerName: "Taylor Quinn",
+    email: "taylorquinn@usf.edu",
+    purchases: [
+        "Plain Hoodie",
+        "Cotton Shorts",
+        "Crew Socks"
+    ]
+});
+
+customers.shift();
